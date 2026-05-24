@@ -1,0 +1,35 @@
+{
+  "repositories": [
+    {
+      "owner": "misstouch-taro",
+      "name": "meer",
+      "description": "A friendly desktop browser for GitHub and GitLab",
+      "language": "TypeScript",
+      "stars": 0,
+      "topics": ["electron", "github", "gitlab", "windows", "desktop-app"]
+    },
+    {
+      "owner": "misstouch-taro",
+      "name": "meer-demo",
+      "description": "Sample content for meer screenshot demos",
+      "language": "Markdown",
+      "stars": 0,
+      "topics": ["demo", "samples"]
+    }
+  ],
+  "themes": [
+    {
+      "id": "light",
+      "name": "Light",
+      "background": "#F5F8FB",
+      "text": "#1A2B3C"
+    },
+    {
+      "id": "dark",
+      "name": "Dark",
+      "background": "#1E232D",
+      "text": "#E8EEF5"
+    }
+  ],
+  "languages": ["en", "ja", "es"]
+}

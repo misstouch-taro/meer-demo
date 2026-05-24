@@ -9,10 +9,14 @@ A small showcase repository for the **meer** desktop app — designed to demonst
 
 ## What's in this repo
 
-| File | Purpose |
+| Path | Purpose |
 |---|---|
 | [README.md](README.md) | This file — start here |
 | [HOW_TO_USE.md](HOW_TO_USE.md) | A friendly walkthrough of meer's main features |
+| [CHANGELOG.md](CHANGELOG.md) | Release notes for this demo content |
+| [docs/](docs/) | Longer-form documentation (features, FAQ) |
+| [examples/](examples/) | Code samples in TypeScript, Python, and JSON |
+| [assets/](assets/) | Logo and image assets |
 | [sample.ts](sample.ts) | TypeScript example — see syntax highlighting |
 | [sample.py](sample.py) | Python example — different language coloring |
 | [sample-config.json](sample-config.json) | JSON file — structured data preview |
