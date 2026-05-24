@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "meer",
+    "version": "1.0.1",
+    "description": "A desktop browser for GitHub and GitLab repositories",
+    "platforms": ["windows-10", "windows-11"]
+  },
+  "providers": {
+    "github": {
+      "label": "GitHub",
+      "apiBase": "https://api.github.com",
+      "tokenScope": "repo"
+    },
+    "gitlab": {
+      "label": "GitLab",
+      "apiBase": "https://gitlab.com/api/v4",
+      "tokenScope": "read_api"
+    }
+  },
+  "features": {
+    "previewMarkdown": true,
+    "previewImages": true,
+    "downloadZip": true,
+    "multilingualUI": ["en", "ja", "es"],
+    "themes": ["light", "dark"]
+  },
+  "rateLimits": {
+    "anonymous": 60,
+    "authenticated": 5000
+  }
+}
